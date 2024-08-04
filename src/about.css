@@ -1,0 +1,129 @@
+.about-container {
+  display: flex;
+  color: var(--font-color);
+  list-style-type: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(246, 242, 242);
+  padding: 1rem 2.5rem;
+}
+.about-container-hide {
+  display: none;
+}
+
+.about-title {
+  font-family: var(--ff-accent);
+  color: rgb(16, 15, 15);
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 0.875rem;
+}
+
+.about-page {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+#about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-content h1,
+#about-content h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+#about-content p {
+  margin-bottom: 15px;
+}
+
+#about-content section {
+  margin-bottom: 30px;
+}
+
+#about-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: block; /* Ensures image is treated as a block element */
+  border: 1px solid #ddd; /* Optional border for better visual separation */
+}
+
+/* Section Styles */
+#our-story,
+#the-owner,
+#unique-recipes,
+#our-team,
+#testimonials,
+#community,
+#call-to-action {
+  padding: 10px;
+  border-left: 4px solid #e0e0e0;
+}
+
+#our-story h2,
+#the-owner h2,
+#unique-recipes h2,
+#our-team h2,
+#testimonials h2,
+#community h2,
+#call-to-action h2 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+/* Testimonial Styles */
+blockquote {
+  background: #e9f5f2;
+  padding: 10px;
+  border-left: 4px solid #4caf50;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+blockquote p {
+  margin: 0;
+  color: #333;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 1.4em;
+  margin-right: 4px;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 1.4em;
+  margin-left: 4px;
+}
+
+/* Call to Action */
+#call-to-action {
+  text-align: center;
+}
+
+#call-to-action h2 {
+  color: #4caf50;
+  font-size: 1.5em;
+}
+
+#call-to-action p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+/* Contact Information */
+#call-to-action p:last-child {
+  font-size: 1em;
+  font-weight: bold;
+}

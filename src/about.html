@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="main.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,12 +24,9 @@
             <h1>Pan De Cocode</h1>
           </div>
           <ul id="menuList">
-            <li><button id="homePage">Home</button></li>
-            <li><button id="menuPage">Menu</button></li>
-            <li><button id="aboutPage">About</button></li>
-            <!-- <li><a href="#" class="button">Home</a></li>
+            <li><a href="#" class="button">Home</a></li>
             <li><a href="#" class="button">Menu</a></li>
-            <li><a href="/src/about.html" class="button">About</a></li> -->
+            <li><a href="/src/about.html" class="button">About</a></li>
           </ul>
           <div class="menu-icon">
             <img src="/src/image/menu.svg" alt="menu" id="menu" />
@@ -33,15 +34,22 @@
         </nav>
       </header>
       <div class="overlay"></div>
-      <div class="main-content"></div>
-      <div class="menu-page" id="menu-container">
-        <!-- <h1 class="menu-title">Food Menu</h1> -->
-        <!-- <ul class="menu-container" id="menu-container-list"> -->
-      </div>
-      <div class="about-page" id="about-container">
-        <!-- title -->
-        <div class="about-container"></div>
+
+      <div class="main-content">
+        <div class="content-information">
+          <h1 class="hook">Enjoy Our <br />Freshly Baked Breads<br /></h1>
+          <p class="description">
+            Discover the warmth and aroma of our artisan breads. Crafted with
+            the finest ingredients, each loaf offers a unique taste experience,
+            perfect for any meal or occasion. Savor the simple pleasure of
+            freshly baked goodness.
+          </p>
+        </div>
+        <div class="hero-img">
+          <img src="/src/image/Hero.png" alt="Pan de coco" />
+        </div>
       </div>
     </main>
+    <script src="navbar.js"></script>
   </body>
 </html>

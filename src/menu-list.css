@@ -1,0 +1,70 @@
+.menu-title {
+  font-family: var(--ff-accent);
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 0.875rem;
+}
+.menu-container {
+  display: flex;
+  color: var(--font-color);
+  list-style-type: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: white;
+  padding: 1rem 2.5rem;
+}
+.menu-page-hide {
+  display: none;
+}
+.menu-container img {
+  width: 100px;
+  height: auto;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.menu-name {
+  font-family: var(--ff-accent);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.menu-price {
+  color: var(--primary);
+  font-family: var(--ff-accent);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.menu-description {
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--font-color-italic);
+}
+hr {
+  margin: 8px 0px;
+  color: gray;
+}
+
+/* Image crop style */
+.square-image-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.square-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Food Content Stlying */
+.food-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
