@@ -4,7 +4,7 @@ import "./navbar.css";
 import "./navbar.js";
 import "./menu-list.css";
 import "./about.css";
-import toggleMenu from "./menu.js";
+import toggleMenu from "./navbar.js";
 
 const content = document.querySelector(".main-content");
 const homeButton = document.querySelector("#homePage");
