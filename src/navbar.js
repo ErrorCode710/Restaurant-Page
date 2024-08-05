@@ -12,3 +12,5 @@ function toggleMenu() {
 const menuButtonMobile = document.querySelector("#menu");
 
 menuButtonMobile.addEventListener("click", toggleMenu);
+
+export default toggleMenu;

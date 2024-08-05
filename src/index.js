@@ -4,6 +4,7 @@ import "./navbar.css";
 import "./navbar.js";
 import "./menu-list.css";
 import "./about.css";
+import toggleMenu from "./menu.js";
 
 const content = document.querySelector(".main-content");
 const homeButton = document.querySelector("#homePage");
@@ -263,3 +264,4 @@ window.onload = checkScreenSize;
 
 window.onresize = checkScreenSize;
 createHomePage(content);
+toggleMenu();
